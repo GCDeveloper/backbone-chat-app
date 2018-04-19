@@ -1,12 +1,12 @@
 # Chat app built with backbone.js
 
-### Reason for this repository
+## Reason for this repository
 
 I want to learn backbone.js but need to set up a simple back end first (and do not want to use localStorage adapter)
 
-### Get it running:
+## Get it running:
 
-1. Download/Install
+#### 1. Download/Install
 
 `git clone https://github.com/GCDeveloper/backbone-chat-app`
 
@@ -18,17 +18,21 @@ I want to learn backbone.js but need to set up a simple back end first (and do n
 
 `npm install browserify -g`
 
-2. Build
+#### 2. Build
 
 `npm run build`
 
-3. Start
+#### 3. Test
+
+`npm run test`
+
+#### 4. Start
 
 `npm start`
 
 It should now be listening on port 3000
 
-### Todo:
+## Todo:
 
 * Use web sockets e.g. socket.io so it is easy to determine if there are new messages which should be broadcast, rather than polling the server.
 
